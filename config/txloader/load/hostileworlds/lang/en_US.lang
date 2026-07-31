@@ -1,0 +1,15 @@
+# Adds missing language files
+
+entity.HostileWorlds.InvaderZombie.name=Invader Zombie
+entity.HostileWorlds.InvaderZombieMiner.name=Invader Zombie Miner
+entity.HostileWorlds.ClimberZombie.name=Climber Zombie
+entity.HostileWorlds.HungryZombie.name=Hungry Zombie
+entity.HostileWorlds.ClawingZombie.name=Clawing Zombie
+entity.HostileWorlds.EntityComrade.name=Comrade
+entity.HostileWorlds.EntityMeteorite.name=Meteorite
+entity.HostileWorlds.EntityWormSand.name=Sand Worm
+entity.HostileWorlds.EntityWormFire.name=The Infernal
+entity.HostileWorlds.EntityDebrisBlock.name=Debris
+entity.HostileWorlds.EntityBlockMonster.name=Block Monster
+entity.HostileWorlds.HWEntityArrow.name=Arrow
+entity.HostileWorlds.HWEntityFireBall.name=Fireball
