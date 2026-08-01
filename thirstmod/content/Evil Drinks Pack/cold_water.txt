@@ -6,7 +6,7 @@ item
  effect:true
  always_drinkable:false
 recipe
- item:gold_ingot
+ item:ice
 thirst_stats
  bar_heal:2
  saturation_heal:8

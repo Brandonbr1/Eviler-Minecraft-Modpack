@@ -3,6 +3,7 @@ enderPearl = minecraft:ender_pearl,5,0,60
 diamond = minecraft:diamond,4,0,50
 emerald= minecraft:emerald,4,0,30
 goldenApple = minecraft:golden_apple,3,0,20
+gappleThirst = thirstmod:gapple_juice,1,0,20
 
 teleportStone = chocolateQuest:teleportStone,1,0,20
 elementStone = chocolateQuest:elementStone,1,0,10
