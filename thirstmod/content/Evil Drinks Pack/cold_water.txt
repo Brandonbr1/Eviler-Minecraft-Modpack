@@ -1,0 +1,12 @@
+item
+ name:Ice Cold Water
+ internal_name:cold_water_drink
+ colour:010a1a
+ stacksize:1
+ effect:true
+ always_drinkable:false
+recipe
+ item:gold_ingot
+thirst_stats
+ bar_heal:2
+ saturation_heal:8

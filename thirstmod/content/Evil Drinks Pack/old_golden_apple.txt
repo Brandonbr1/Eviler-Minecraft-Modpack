@@ -8,8 +8,8 @@ item
 recipe
  item:gold_ingot
 thirst_stats
- bar_heal:4
- saturation_heal:1.8
+ bar_heal:5
+ saturation_heal:2
 hunger_stats
  bar_heal_hunger:2
  saturation_heal_hunger:1.2
