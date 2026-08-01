@@ -1,6 +1,6 @@
 item
- name:Essence of the Old Golden Apple
- internal_name:old_golden_apple_drink
+ name:Essence Of The Old Golden Apple
+ internal_name:old_golden_apple_juice
  colour:eaef57
  stacksize:4
  effect:true
@@ -9,7 +9,7 @@ recipe
  item:gold_ingot
 thirst_stats
  bar_heal:4
- saturation_heal:2
+ saturation_heal:1.8
 hunger_stats
  bar_heal_hunger:2
  saturation_heal_hunger:1.2
