@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:260
 fboEnable:true
-difficulty:3
+difficulty:0
 fancyGraphics:true
 ao:2
 clouds:false
@@ -92,11 +92,11 @@ key_key.next:0
 key_key.prev:0
 key_PM_ParticleMode:37
 key_PM_ShieldToggle:38
-key_key.dss.activate.desc:45
+key_key.dss.activate.desc:47
 key_key.dss.next.desc:15
 key_key.dss.skills_gui.desc:25
 key_key.portaitreposition:52
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
