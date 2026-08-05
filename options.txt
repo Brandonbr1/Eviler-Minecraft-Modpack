@@ -97,7 +97,7 @@ key_key.dss.next.desc:15
 key_key.dss.skills_gui.desc:25
 key_key.portaitreposition:52
 soundCategory_master:0.0
-soundCategory_music:1.0
+soundCategory_music:0.43661973
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
