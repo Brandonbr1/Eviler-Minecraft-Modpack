@@ -1,6 +1,6 @@
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.5
+fov:1.0
 gamma:0.0
 saturation:0.0
 renderDistance:12
@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:140
 fboEnable:true
-difficulty:1
+difficulty:3
 fancyGraphics:false
 ao:2
 clouds:false
@@ -27,7 +27,7 @@ snooperEnabled:true
 fullscreen:false
 enableVsync:false
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
@@ -95,7 +95,7 @@ key_PM_ParticleMode:37
 key_PM_ShieldToggle:38
 key_key.dss.activate.desc:47
 key_key.dss.next.desc:15
-key_key.dss.skills_gui.desc:25
+key_key.dss.skills_gui.desc:39
 key_key.portaitreposition:52
 soundCategory_master:0.9470199
 soundCategory_music:0.0

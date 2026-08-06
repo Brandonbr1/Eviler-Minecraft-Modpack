@@ -32,7 +32,7 @@
             "Damage:2": 10,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 1,
@@ -40,10 +40,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "First Drink",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "Get your first Drink!"
         }
@@ -81,7 +81,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 1,
@@ -89,10 +89,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Hurtful Stone",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "How does grabbing it not hurt? Anyways, wonder what it is useful for?"
         }
@@ -107,7 +107,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -115,6 +114,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": -3258618956289972020,
             "OnGround:1": 0,
@@ -176,7 +176,7 @@
               "2:6": 0.0
             },
             "id:8": "CoalOre",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -192,7 +192,7 @@
               "4:5": 0.085
             },
             "Health:2": 10,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -205,7 +205,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -213,6 +212,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": -8418947045763199529,
             "OnGround:1": 0,
@@ -274,7 +274,7 @@
               "2:6": 0.0
             },
             "id:8": "DiamondOre",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -290,7 +290,7 @@
               "4:5": 0.085
             },
             "Health:2": 40,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -303,7 +303,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -311,6 +310,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": 6825109031749110661,
             "OnGround:1": 0,
@@ -372,7 +372,7 @@
               "2:6": 0.0
             },
             "id:8": "EmeraldOre",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -388,7 +388,7 @@
               "4:5": 0.085
             },
             "Health:2": 45,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -401,7 +401,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -409,6 +408,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": -5146927519740413603,
             "OnGround:1": 0,
@@ -470,7 +470,7 @@
               "2:6": 0.0
             },
             "id:8": "GoldOre",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -486,7 +486,7 @@
               "4:5": 0.085
             },
             "Health:2": 25,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -499,7 +499,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -507,6 +506,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": 7334234891828856599,
             "OnGround:1": 0,
@@ -568,7 +568,7 @@
               "2:6": 0.0
             },
             "id:8": "IronOre",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -584,7 +584,7 @@
               "4:5": 0.085
             },
             "Health:2": 15,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -597,7 +597,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -605,6 +604,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": -7156597250310963017,
             "OnGround:1": 0,
@@ -666,7 +666,7 @@
               "2:6": 0.0
             },
             "id:8": "LapisLazuliOre",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -682,7 +682,7 @@
               "4:5": 0.085
             },
             "Health:2": 15,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -695,7 +695,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -703,6 +702,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": 3676087779672473175,
             "OnGround:1": 0,
@@ -764,7 +764,7 @@
               "2:6": 0.0
             },
             "id:8": "NetherQuartzOre",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -780,7 +780,7 @@
               "4:5": 0.085
             },
             "Health:2": 20,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -793,7 +793,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -801,6 +800,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": 645922861386764302,
             "OnGround:1": 0,
@@ -862,7 +862,7 @@
               "2:6": 0.0
             },
             "id:8": "RedstoneOre",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -878,7 +878,7 @@
               "4:5": 0.085
             },
             "Health:2": 20,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -891,7 +891,6 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {},
               "1:10": {},
@@ -899,6 +898,7 @@
               "3:10": {},
               "4:10": {}
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": -6754342797283507737,
             "OnGround:1": 0,
@@ -960,7 +960,7 @@
               "2:6": 0.0
             },
             "id:8": "fakeNetherite",
-            "Fire:2": 0,
+            "PersistenceRequired:1": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -976,7 +976,7 @@
               "4:5": 0.085
             },
             "Health:2": 55,
-            "PersistenceRequired:1": 0,
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -997,7 +997,7 @@
             "Damage:2": 1,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 1,
@@ -1005,10 +1005,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Deceitful Foe",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "I just wanna mine my ores!"
         }
@@ -1017,102 +1017,21 @@
     "3:10": {
       "tasks:9": {
         "0:10": {
-          "target:8": "OresBoss",
-          "index:3": 0,
-          "required:3": 1,
-          "taskID:8": "bq_standard:hunt",
-          "damageType:8": "",
-          "targetNBT:10": {
-            "Equipment:9": {
-              "0:10": {},
-              "1:10": {},
-              "2:10": {},
-              "3:10": {},
-              "4:10": {}
-            },
-            "DeathTime:2": 0,
-            "Leashed:1": 0,
-            "UUIDLeast:4": -8614514160732646883,
-            "OnGround:1": 0,
-            "AbsorptionAmount:5": 0.0,
-            "Attributes:9": {
-              "0:10": {
-                "Name:8": "weapon.penetrateArmor",
-                "Base:6": 0.0
-              },
-              "1:10": {
-                "Name:8": "weapon.daze",
-                "Base:6": 3.0
-              },
-              "2:10": {
-                "Name:8": "weapon.attackSpeed",
-                "Base:6": 0.0
-              },
-              "3:10": {
-                "Name:8": "weapon.mountedBonus",
-                "Base:6": 0.0
-              },
-              "4:10": {
-                "Name:8": "generic.maxHealth",
-                "Base:6": 800.0
-              },
-              "5:10": {
-                "Name:8": "generic.knockbackResistance",
-                "Base:6": 1.7976931348623157E308
-              },
-              "6:10": {
-                "Name:8": "generic.movementSpeed",
-                "Base:6": 2.0
-              },
-              "7:10": {
-                "Name:8": "generic.followRange",
-                "Base:6": 16.0
-              },
-              "8:10": {
-                "Name:8": "generic.attackDamage",
-                "Base:6": 18.0
-              }
-            },
-            "Invulnerable:1": 0,
-            "Dimension:3": 0,
-            "CustomNameVisible:1": 0,
-            "UUIDMost:4": 6814115728100,
-            "Rotation:9": {
-              "0:5": 5.9457827,
-              "1:5": 0.0
-            },
-            "HealF:5": 800.0,
-            "CustomName:8": "",
-            "Air:2": 300,
-            "AttackTime:2": 0,
-            "FallDistance:5": 0.0,
-            "Motion:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "id:8": "OresBoss",
-            "PersistenceRequired:1": 0,
-            "Pos:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "CanPickUpLoot:1": 0,
-            "HurtTime:2": 0,
-            "DropChances:9": {
-              "0:5": 0.085,
-              "1:5": 0.085,
-              "2:5": 0.085,
-              "3:5": 0.085,
-              "4:5": 0.085
-            },
-            "Health:2": 800,
-            "Fire:2": 0,
-            "PortalCooldown:3": 0
+          "index:3": 1,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "fakeores:oreBoss_Star",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
           },
-          "subtypes:1": 1,
-          "ignoreNBT:1": 1
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
         }
       },
       "questID:3": 3,
@@ -1123,24 +1042,24 @@
           "visibility:8": "NORMAL",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "minecraft:nether_star",
+            "id:8": "fakeores:boss_frame",
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 0,
           "lockedProgress:1": 0,
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
-          "name:8": "WORK?",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "name:8": "Well, that was not a surprise.",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
-          "desc:8": "WHY YOU NO WORK?"
+          "desc:8": "You spawned him in."
         }
       }
     },
@@ -1184,7 +1103,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 1,
@@ -1192,10 +1111,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Quenched Thirst",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "Obtain a drink that heals 10 thirst points."
         }
@@ -1235,7 +1154,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "repeatTime:3": -1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 1,
@@ -1243,10 +1162,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Hardcore Drinker",
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "simultaneous:1": 0,
-          "taskLogic:8": "AND",
+          "repeatTime:3": -1,
           "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
           "globalShare:1": 0,
           "desc:8": "Why not make a drink for us eh?"
         }
@@ -1286,7 +1205,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "repeatTime:3": -1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 1,
@@ -1294,10 +1213,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Acustomed Shopper.",
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "simultaneous:1": 0,
-          "taskLogic:8": "AND",
+          "repeatTime:3": -1,
           "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
           "globalShare:1": 0,
           "desc:8": "Take a Shop for some high quality drink."
         }
@@ -1337,7 +1256,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "repeatTime:3": -1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 1,
@@ -1345,10 +1264,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Coins for DAYZ.",
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "simultaneous:1": 0,
-          "taskLogic:8": "AND",
+          "repeatTime:3": -1,
           "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
           "globalShare:1": 0,
           "desc:8": "Coins. Coins. Coins."
         }
@@ -1374,7 +1293,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "repeatTime:3": -1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 0,
@@ -1382,10 +1301,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Stop An Army",
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "simultaneous:1": 0,
-          "taskLogic:8": "AND",
+          "repeatTime:3": -1,
           "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
           "globalShare:1": 0,
           "desc:8": "§4§n§lStop the Hostile Worlds Invasion."
         }
@@ -1400,22 +1319,22 @@
           "taskID:8": "bq_standard:hunt",
           "damageType:8": "",
           "targetNBT:10": {
-            "DeathTime:2": 0,
             "Equipment:9": {
               "0:10": {
-                "Damage:2": 0,
                 "id:2": 4449,
+                "Damage:2": 0,
                 "Count:1": 1
               },
               "1:10": {},
               "2:10": {},
               "3:10": {},
               "4:10": {
-                "Damage:2": 0,
                 "id:2": 306,
+                "Damage:2": 0,
                 "Count:1": 1
               }
             },
+            "DeathTime:2": 0,
             "Leashed:1": 0,
             "UUIDLeast:4": -3516224318813710977,
             "OnGround:1": 0,
@@ -1484,14 +1403,9 @@
               "2:6": 0.0
             },
             "id:8": "HostileWorlds.BlockWielderZombie",
-            "Fire:2": 0,
-            "Pos:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
+            "PersistenceRequired:1": 1,
+            "Health:2": 500,
             "CanPickUpLoot:1": 0,
-            "HurtTime:2": 0,
             "DropChances:9": {
               "0:5": 2.0,
               "1:5": 2.0,
@@ -1499,8 +1413,13 @@
               "3:5": 2.0,
               "4:5": 2.0
             },
-            "Health:2": 500,
-            "PersistenceRequired:1": 1,
+            "HurtTime:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
             "PortalCooldown:3": 0
           },
           "subtypes:1": 1,
@@ -1519,7 +1438,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "repeatTime:3": -1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 0,
@@ -1527,10 +1446,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Killing of a Legend.",
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "simultaneous:1": 0,
-          "taskLogic:8": "AND",
+          "repeatTime:3": -1,
           "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
           "globalShare:1": 0,
           "desc:8": "§4§lA legend that goes undefeated."
         }
@@ -1568,7 +1487,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "repeatTime:3": -1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 0,
@@ -1576,10 +1495,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Controlling the Particles.",
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "simultaneous:1": 0,
-          "taskLogic:8": "AND",
+          "repeatTime:3": -1,
           "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
           "globalShare:1": 0,
           "desc:8": "§2§3§4§nA glove that can harness the power of the particles?"
         }
@@ -1619,7 +1538,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "repeatTime:3": -1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
           "isMain:1": 1,
@@ -1627,10 +1546,10 @@
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "A Legendary Blade",
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "simultaneous:1": 0,
-          "taskLogic:8": "AND",
+          "repeatTime:3": -1,
           "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
           "globalShare:1": 0,
           "desc:8": ""
         }
@@ -1639,129 +1558,51 @@
     "12:10": {
       "tasks:9": {
         "0:10": {
-          "target:8": "Pig",
           "index:3": 0,
-          "required:3": 1,
-          "taskID:8": "bq_standard:hunt",
-          "damageType:8": "",
-          "targetNBT:10": {
-            "Equipment:9": {
-              "0:10": {},
-              "1:10": {},
-              "2:10": {},
-              "3:10": {},
-              "4:10": {}
-            },
-            "DeathTime:2": 0,
-            "Leashed:1": 0,
-            "UUIDLeast:4": -555404208351217698,
-            "OnGround:1": 0,
-            "AbsorptionAmount:5": 0.0,
-            "Attributes:9": {
-              "0:10": {
-                "Name:8": "weapon.penetrateArmor",
-                "Base:6": 0.0
-              },
-              "1:10": {
-                "Name:8": "weapon.daze",
-                "Base:6": 3.0
-              },
-              "2:10": {
-                "Name:8": "weapon.attackSpeed",
-                "Base:6": 0.0
-              },
-              "3:10": {
-                "Name:8": "weapon.mountedBonus",
-                "Base:6": 0.0
-              },
-              "4:10": {
-                "Name:8": "generic.maxHealth",
-                "Base:6": 10.0
-              },
-              "5:10": {
-                "Name:8": "generic.knockbackResistance",
-                "Base:6": 0.0
-              },
-              "6:10": {
-                "Name:8": "generic.movementSpeed",
-                "Base:6": 0.25
-              },
-              "7:10": {
-                "Name:8": "generic.followRange",
-                "Base:6": 16.0
-              }
-            },
-            "Invulnerable:1": 0,
-            "Age:3": 0,
-            "Dimension:3": 0,
-            "Saddle:1": 0,
-            "CustomNameVisible:1": 0,
-            "UUIDMost:4": 5033079026100,
-            "Rotation:9": {
-              "0:5": 3.2335637,
-              "1:5": 0.0
-            },
-            "HealF:5": 10.0,
-            "CustomName:8": "",
-            "Air:2": 300,
-            "AttackTime:2": 0,
-            "PersistenceRequired:1": 0,
-            "FallDistance:5": 0.0,
-            "Motion:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "id:8": "Pig",
-            "Health:2": 10,
-            "DropChances:9": {
-              "0:5": 0.085,
-              "1:5": 0.085,
-              "2:5": 0.085,
-              "3:5": 0.085,
-              "4:5": 0.085
-            },
-            "CanPickUpLoot:1": 0,
-            "HurtTime:2": 0,
-            "Fire:2": 0,
-            "Pos:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "InLove:3": 0,
-            "PortalCooldown:3": 0
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "fakeores:fakeOres_finder",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
           },
-          "subtypes:1": 1,
-          "ignoreNBT:1": 1
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
         }
       },
       "questID:3": 12,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        11
+      ],
       "rewards:9": {},
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "minecraft:nether_star",
+            "id:8": "fakeores:fakeOres_finder",
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "questLogic:8": "AND",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "lockedProgress:1": 0,
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
-          "name:8": "TEST ACHIEVMENT",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "name:8": "Legendary Finder",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
-          "desc:8": "TEST"
+          "desc:8": "Hopefully you won\u0027t get surpised anymore"
         }
       }
     },
@@ -1797,20 +1638,479 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "questLogic:8": "AND",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "lockedProgress:1": 0,
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "name:8": "Shining Star",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "Get A glowstone torch."
+        }
+      }
+    },
+    "14:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "dextersnether:quartz_boots",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 14,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "dextersnether:quartz_boots",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Light as Quartz!",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "That\u0027s how the saying goes right?"
+        }
+      }
+    },
+    "15:10": {
+      "tasks:9": {
+        "0:10": {
+          "onHit:1": 0,
+          "onInteract:1": 1,
+          "requiredUses:3": 1,
+          "ignoreNbt:1": 0,
+          "block:10": {
+            "amount:3": 1,
+            "meta:3": -1,
+            "oreDict:8": "",
+            "blockID:8": "minecraft:air",
+            "nbt:10": {}
+          },
+          "item:10": {
+            "Damage:2": 0,
+            "id:8": "thirstmod:old_golden_apple_juice",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "partialMatch:1": 1,
+          "taskID:8": "bq_standard:interact_item",
+          "index:3": 1
+        }
+      },
+      "questID:3": 15,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thirstmod:old_golden_apple_juice",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Delightful Drinker.",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Drink it, it is healthy."
+        }
+      }
+    },
+    "16:10": {
+      "tasks:9": {
+        "0:10": {
+          "onHit:1": 0,
+          "onInteract:1": 1,
+          "requiredUses:3": 1,
+          "ignoreNbt:1": 0,
+          "block:10": {
+            "amount:3": 1,
+            "meta:3": -1,
+            "oreDict:8": "",
+            "blockID:8": "minecraft:air",
+            "nbt:10": {}
+          },
+          "item:10": {
+            "Damage:2": 0,
+            "id:8": "battlegear2:shield.hide",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "partialMatch:1": 1,
+          "taskID:8": "bq_standard:interact_item",
+          "index:3": 0
+        }
+      },
+      "questID:3": 16,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "battlegear2:shield.hide",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Hit Me Not!",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Craft and use a Leather Shield"
+        }
+      }
+    },
+    "17:10": {
+      "tasks:9": {
+        "0:10": {
+          "onHit:1": 0,
+          "onInteract:1": 1,
+          "requiredUses:3": 1,
+          "ignoreNbt:1": 0,
+          "block:10": {
+            "amount:3": 1,
+            "meta:3": -1,
+            "oreDict:8": "",
+            "blockID:8": "minecraft:air",
+            "nbt:10": {}
+          },
+          "item:10": {
+            "Damage:2": 0,
+            "id:8": "battlegear2:shield.iron",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "partialMatch:1": 1,
+          "taskID:8": "bq_standard:interact_item",
+          "index:3": 0
+        }
+      },
+      "questID:3": 17,
+      "preRequisites:11": [
+        18
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "battlegear2:shield.iron",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Ha! Missed me!",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Use the Iron Sheild."
+        }
+      }
+    },
+    "18:10": {
+      "tasks:9": {
+        "0:10": {
+          "onHit:1": 0,
+          "onInteract:1": 1,
+          "requiredUses:3": 1,
+          "ignoreNbt:1": 0,
+          "block:10": {
+            "amount:3": 1,
+            "meta:3": -1,
+            "oreDict:8": "",
+            "blockID:8": "minecraft:air",
+            "nbt:10": {}
+          },
+          "item:10": {
+            "Damage:2": 0,
+            "id:8": "battlegear2:shield.gold",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "partialMatch:1": 1,
+          "taskID:8": "bq_standard:interact_item",
+          "index:3": 0
+        }
+      },
+      "questID:3": 18,
+      "preRequisites:11": [
+        16
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "battlegear2:shield.gold",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Miss Again!",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Use a gold sheild."
+        }
+      }
+    },
+    "19:10": {
+      "tasks:9": {
+        "0:10": {
+          "onHit:1": 0,
+          "onInteract:1": 1,
+          "requiredUses:3": 1,
+          "ignoreNbt:1": 0,
+          "block:10": {
+            "amount:3": 1,
+            "meta:3": -1,
+            "oreDict:8": "",
+            "blockID:8": "minecraft:air",
+            "nbt:10": {}
+          },
+          "item:10": {
+            "Damage:2": 0,
+            "id:8": "battlegear2:shield.diamond",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "partialMatch:1": 1,
+          "taskID:8": "bq_standard:interact_item",
+          "index:3": 0
+        }
+      },
+      "questID:3": 19,
+      "preRequisites:11": [
+        17
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "battlegear2:shield.diamond",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Can\u0027t hit tis\u0027",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Use a diamond sheild."
+        }
+      }
+    },
+    "20:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "minecraft:enchanted_book",
+              "OreDict:8": "",
+              "tag:10": {
+                "StoredEnchantments:9": {
+                  "0:10": {
+                    "id:2": 129,
+                    "lvl:2": 4
+                  }
+                }
+              },
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 20,
+      "preRequisites:11": [
+        16
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "tag:10": {
+              "StoredEnchantments:9": {
+                "0:10": {
+                  "id:2": 129,
+                  "lvl:2": 4
+                }
+              }
+            },
+            "id:8": "minecraft:enchanted_book",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Not even a scratch.",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": ""
+        }
+      }
+    },
+    "21:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "minecraft:enchanted_book",
+              "OreDict:8": "",
+              "tag:10": {
+                "StoredEnchantments:9": {
+                  "0:10": {
+                    "id:2": 128,
+                    "lvl:2": 5
+                  }
+                }
+              },
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 21,
+      "preRequisites:11": [
+        16
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "tag:10": {
+              "StoredEnchantments:9": {
+                "0:10": {
+                  "id:2": 128,
+                  "lvl:2": 5
+                }
+              }
+            },
+            "id:8": "minecraft:enchanted_book",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Not a Hit.",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
         }
       }
     }
@@ -1823,14 +2123,14 @@
           "name:8": "Start of a Hostile World.",
           "desc:8": "§4§o§n§lYour Journey In A Hostile World Begins!",
           "visibility:8": "NORMAL",
-          "bg_image:8": "",
+          "bg_size:3": 256,
           "icon:10": {
             "Count:3": 1,
             "id:8": "minecraft:lava_bucket",
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "bg_size:3": 256
+          "bg_image:8": ""
         }
       },
       "quests:9": {
@@ -1892,8 +2192,57 @@
         },
         "8:10": {
           "id:3": 12,
+          "y:3": -24,
+          "x:3": -84,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "id:3": 15,
+          "y:3": -48,
+          "x:3": -156,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "id:3": 16,
           "y:3": -72,
           "x:3": -216,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "id:3": 17,
+          "y:3": -24,
+          "x:3": -216,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "id:3": 18,
+          "y:3": -48,
+          "x:3": -216,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "id:3": 19,
+          "y:3": 0,
+          "x:3": -216,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "id:3": 20,
+          "y:3": 0,
+          "x:3": -240,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "id:3": 21,
+          "y:3": 0,
+          "x:3": -264,
           "sizeX:3": 24,
           "sizeY:3": 24
         }
@@ -1907,7 +2256,7 @@
           "name:8": "The Start of a Great Battle",
           "desc:8": "§4§n§l§oA Battle That Will Be Legendary.",
           "visibility:8": "NORMAL",
-          "bg_size:3": 256,
+          "bg_image:8": "",
           "icon:10": {
             "Count:3": 1,
             "tag:10": {
@@ -1917,7 +2266,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "bg_image:8": ""
+          "bg_size:3": 256
         }
       },
       "quests:9": {
@@ -1959,20 +2308,27 @@
           "name:8": "Hellish Journey",
           "desc:8": "§4§o§n§lYour journey in Hell has begun.",
           "visibility:8": "NORMAL",
-          "bg_image:8": "",
+          "bg_size:3": 256,
           "icon:10": {
             "Count:3": 1,
             "id:8": "minecraft:book",
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "bg_size:3": 256
+          "bg_image:8": ""
         }
       },
       "quests:9": {
         "0:10": {
           "id:3": 13,
           "y:3": -60,
+          "x:3": -108,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "id:3": 14,
+          "y:3": -36,
           "x:3": -108,
           "sizeX:3": 24,
           "sizeY:3": 24
@@ -1983,18 +2339,18 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "livesMax:3": 10,
       "home_anchor_x:5": 0.5,
+      "livesMax:3": 10,
       "home_offset_x:3": -128,
-      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "home_image:8": "evilerminecraft:textures/gui/logo5.png",
       "livesDef:3": 3,
-      "pack_name:8": "",
-      "pack_version:3": 0,
-      "editMode:1": 1,
-      "hardcore:1": 0,
       "party_enable:1": 1,
-      "home_anchor_y:5": 0.0,
-      "home_offset_y:3": 0
+      "hardcore:1": 0,
+      "editMode:1": 1,
+      "pack_version:3": 0,
+      "pack_name:8": "",
+      "home_offset_y:3": 0,
+      "home_anchor_y:5": 0.0
     }
   },
   "format:8": "2.0.0"
