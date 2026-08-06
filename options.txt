@@ -3,16 +3,16 @@ mouseSensitivity:0.5
 fov:0.5
 gamma:0.0
 saturation:0.0
-renderDistance:16
+renderDistance:12
 guiScale:0
 particles:0
 bobView:true
 anaglyph3d:false
 advancedOpengl:false
-maxFps:260
+maxFps:140
 fboEnable:true
-difficulty:3
-fancyGraphics:true
+difficulty:1
+fancyGraphics:false
 ao:2
 clouds:false
 resourcePacks:[]
@@ -87,6 +87,7 @@ key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_Draw Weapons:19
 key_Special:44
+key_key.betterquesting.quests:27
 key_key.party:0
 key_key.next:0
 key_key.prev:0
@@ -96,8 +97,8 @@ key_key.dss.activate.desc:47
 key_key.dss.next.desc:15
 key_key.dss.skills_gui.desc:25
 key_key.portaitreposition:52
-soundCategory_master:0.0
-soundCategory_music:0.43661973
+soundCategory_master:0.9470199
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
