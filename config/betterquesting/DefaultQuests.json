@@ -1049,7 +1049,7 @@
           "repeatTime:3": -1,
           "isSilent:1": 0,
           "questLogic:8": "AND",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "lockedProgress:1": 0,
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -1277,7 +1277,15 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
-          "blocks:9": {},
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 0,
+              "meta:3": 0,
+              "oreDict:8": "",
+              "blockID:8": "minecraft:air",
+              "nbt:10": {}
+            }
+          },
           "taskID:8": "bq_standard:block_break"
         }
       },
@@ -1296,7 +1304,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "lockedProgress:1": 0,
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -1441,7 +1449,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "lockedProgress:1": 0,
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -1490,7 +1498,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "isSilent:1": 0,
           "questLogic:8": "AND",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "lockedProgress:1": 0,
           "repeat_relative:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -1500,7 +1508,7 @@
           "taskLogic:8": "AND",
           "simultaneous:1": 0,
           "globalShare:1": 0,
-          "desc:8": "§2§3§4§nA glove that can harness the power of the particles?"
+          "desc:8": "§2§3§4§nA glove that can harness the power of the particles? If you don\u0027t know how to use it: Redstone torch, torch, and water do things. Keys J and K also does stuff. As for what each does? That\u0027s for you to figure out!!! Also, when using the blue bar, don\u0027t look down as the ability won\u0027t work!"
         }
       }
     },
@@ -2113,6 +2121,3974 @@
           "desc:8": "No Description"
         }
       }
+    },
+    "22:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 1,
+              "id:8": "minecraft:golden_apple",
+              "OreDict:8": "",
+              "Count:3": 15
+            }
+          },
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 22,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:golden_apple",
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "A golden Feast.",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "You\u0027ll need this for the final bosses."
+        }
+      }
+    },
+    "23:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "chocolateQuest:cloudBoots",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 23,
+      "preRequisites:11": [
+        14
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:cloudBoots",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Light as a Feather",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Ah, that\u0027s how the saying goes!"
+        }
+      }
+    },
+    "24:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "LavaMonsters.LavaMonster",
+          "index:3": 0,
+          "required:3": 15,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8735419208959131046,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 100.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.24
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 2.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 1264480770400,
+            "Rotation:9": {
+              "0:5": 4.149714,
+              "1:5": 0.0
+            },
+            "HealF:5": 100.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "LavaMonsters.LavaMonster",
+            "PersistenceRequired:1": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 100,
+            "Fire:2": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 24,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:spawn_egg",
+            "Damage:2": 86,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "That\u0027s hot Stuff Man",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Hotties."
+        }
+      }
+    },
+    "25:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 0,
+              "meta:3": 0,
+              "oreDict:8": "",
+              "blockID:8": "minecraft:air",
+              "nbt:10": {}
+            }
+          },
+          "taskID:8": "bq_standard:block_break"
+        }
+      },
+      "questID:3": 25,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "evilMinecraftFixes:Fake Netherite",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Hard stuff",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Gather 15 fake netherite blocks"
+        }
+      }
+    },
+    "26:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "SpecialMobs.BrutishZombie",
+          "index:3": 0,
+          "required:3": 15,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -5357899641304503307,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "ConversionTime:3": -1,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 20.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.23000000417232513
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 40.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 3.0
+              },
+              "9:10": {
+                "Name:8": "zombie.spawnReinforcements",
+                "Base:6": 0.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 1873871811900,
+            "Rotation:9": {
+              "0:5": 0.0060422355,
+              "1:5": 0.0
+            },
+            "CanBreakDoors:1": 0,
+            "HealF:5": 20.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "ForgeData:10": {
+              "SMData:10": {
+                "SMWaterBreath:1": 0,
+                "SMFallImmune:1": 0,
+                "SMArrowSpread:5": 14.0,
+                "SMWaterDamage:1": 0,
+                "SMFireImmune:1": 0,
+                "SMArrowDamage:5": 2.0,
+                "SMArrowMoveSpeed:5": 0.9,
+                "SMWebImmune:1": 0,
+                "SMScale:5": 0.8708335,
+                "SMArrowRefireMax:2": 70,
+                "SMRegenTick:1": 0,
+                "SMPotionImmune:11": [
+                  19,
+                  10
+                ],
+                "SMWaterPushImmune:1": 0,
+                "SMBurningImmune:1": 0,
+                "SMLeash:1": 0,
+                "SMRegen:1": 0,
+                "SMTex:9": {
+                  "0:8": "specialmobs:textures/entity/zombie/brutish.png",
+                  "1:8": "specialmobs:textures/entity/zombie/brutish_villager.png"
+                },
+                "SMArrowRefireMin:2": 23,
+                "SMUnderPressure:1": 0,
+                "SMArrowRange:5": 12.0,
+                "SMArmor:1": 0
+              }
+            },
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "SpecialMobs.BrutishZombie",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 20,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "1:10": {
+          "target:8": "SpecialMobs.BrutishSkeleton",
+          "index:3": 1,
+          "required:3": 15,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8487550969423723795,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 20.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.25
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 2.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 1847063146200,
+            "Rotation:9": {
+              "0:5": 3.6050925,
+              "1:5": 0.0
+            },
+            "HealF:5": 20.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "evilMinecraftFixes_WITHER_BEDROCK_DATA:10": {
+              "immuneTOExplsoionsEvil:1": 0,
+              "EvilForcePinch:1": 0,
+              "tickEvil:3": 0,
+              "EvilwitherIsDesperate:1": 0,
+              "explodedEvil:1": 0
+            },
+            "ForgeData:10": {
+              "SMData:10": {
+                "SMWaterBreath:1": 0,
+                "SMFallImmune:1": 0,
+                "SMArrowSpread:5": 14.0,
+                "SMWaterDamage:1": 0,
+                "SMFireImmune:1": 0,
+                "SMArrowDamage:5": 2.0,
+                "SMArrowMoveSpeed:5": 1.0,
+                "SMWebImmune:1": 0,
+                "SMScale:5": 0.896548,
+                "SMArrowRefireMax:2": 31,
+                "SMRegenTick:1": 0,
+                "IsBaby:1": 0,
+                "SMPotionImmune:11": [
+                  19,
+                  10
+                ],
+                "SMWaterPushImmune:1": 0,
+                "SMBurningImmune:1": 0,
+                "SMLeash:1": 0,
+                "SMRegen:1": 0,
+                "SMTex:9": {
+                  "0:8": "specialmobs:textures/entity/skeleton/brutish.png",
+                  "1:8": "specialmobs:textures/entity/skeleton/brutish_wither.png"
+                },
+                "SMArrowRefireMin:2": 30,
+                "SMUnderPressure:1": 0,
+                "SMArrowRange:5": 15.0,
+                "SMArmor:1": 0
+              }
+            },
+            "Fire:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "SpecialMobs.BrutishSkeleton",
+            "SkeletonType:1": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 20,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "2:10": {
+          "target:8": "SpecialMobs.BrutishPigZombie",
+          "index:3": 2,
+          "required:3": 15,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": 5265264547026177365,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "ConversionTime:3": -1,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 20.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.5
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 40.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 5.0
+              },
+              "9:10": {
+                "Name:8": "zombie.spawnReinforcements",
+                "Base:6": 0.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 1862260236200,
+            "Rotation:9": {
+              "0:5": 2.5901074,
+              "1:5": 0.0
+            },
+            "CanBreakDoors:1": 0,
+            "HealF:5": 20.0,
+            "CustomName:8": "",
+            "Anger:2": 0,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "ForgeData:10": {
+              "SMData:10": {
+                "SMWaterBreath:1": 0,
+                "SMFallImmune:1": 0,
+                "SMArrowSpread:5": 14.0,
+                "SMWaterDamage:1": 0,
+                "SMFireImmune:1": 1,
+                "SMArrowDamage:5": 2.0,
+                "SMArrowMoveSpeed:5": 0.0,
+                "SMWebImmune:1": 0,
+                "SMScale:5": 0.9191568,
+                "SMArrowRefireMax:2": 60,
+                "SMRegenTick:1": 0,
+                "SMPotionImmune:11": [
+                  19,
+                  10
+                ],
+                "SMWaterPushImmune:1": 0,
+                "SMBurningImmune:1": 0,
+                "SMLeash:1": 0,
+                "SMRegen:1": 0,
+                "SMTex:9": {
+                  "0:8": "specialmobs:textures/entity/pigzombie/brutish.png"
+                },
+                "SMArrowRefireMin:2": 20,
+                "SMUnderPressure:1": 0,
+                "SMArrowRange:5": 13.0,
+                "SMArmor:1": 0
+              }
+            },
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "SpecialMobs.BrutishPigZombie",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 20,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 26,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:skull",
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Get A dentist!",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Who knew british people were so strong?"
+        }
+      }
+    },
+    "27:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "MutantCreatures.MutantZombie",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -4622442803526621503,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 150.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.26
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 2.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 2050865128100,
+            "Rotation:9": {
+              "0:5": 2.3569946,
+              "1:5": 0.0
+            },
+            "HealF:5": 150.0,
+            "CustomName:8": "",
+            "villager:1": 0,
+            "deathTick:3": 0,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "vanishTick:3": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "MutantCreatures.MutantZombie",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 150,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "1:10": {
+          "target:8": "MutantCreatures.MutantCreeper",
+          "index:3": 1,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -5846765081433855372,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "charged:1": 0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 120.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.26
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 4.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 2071578711000,
+            "Rotation:9": {
+              "0:5": 2.8456688,
+              "1:5": 0.0
+            },
+            "HealF:5": 120.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "killer:8": "",
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "MutantCreatures.MutantCreeper",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 120,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "2:10": {
+          "target:8": "MutantCreatures.MutantSkeleton",
+          "index:3": 2,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6513534658371346586,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 160.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.27
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 96.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 2.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 2120665758000,
+            "Rotation:9": {
+              "0:5": 2.0246687,
+              "1:5": 0.0
+            },
+            "HealF:5": 160.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "MutantCreatures.MutantSkeleton",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 160,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "3:10": {
+          "target:8": "MutantCreatures.MutantEnderman",
+          "index:3": 3,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "heldBlockID_2:3": 0,
+            "UUIDLeast:4": 6500110117130034822,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 200.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.3
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 96.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 6.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "heldBlockID_3:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 2141810825300,
+            "heldBlockID_1:3": 0,
+            "Rotation:9": {
+              "0:5": 0.32904103,
+              "1:5": 0.0
+            },
+            "HealF:5": 200.0,
+            "CustomName:8": "",
+            "heldBlockData_2:3": 0,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "heldBlockID_4:3": 0,
+            "heldBlockData_3:3": 0,
+            "heldBlockData_1:3": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "MutantCreatures.MutantEnderman",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 200,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "heldBlockData_4:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 27,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "MutantCreatures:item.chemicalX",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Muntant Maheam!",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Kill all Mutants"
+        }
+      }
+    },
+    "28:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "battlegear2:spear.wood",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 28,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "battlegear2:spear.wood",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "THE COOLEST STICK",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "DUDE, CHECK OUT MY COOL STICK!!!"
+        }
+      }
+    },
+    "29:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.armoredZombie",
+          "index:3": 0,
+          "required:3": 20,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "team:8": "mob_undead",
+            "UUIDLeast:4": 9014601399611040167,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "dropLeft:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 25.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.3
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 20.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 1.0
+              }
+            },
+            "homeZ:3": 0,
+            "Invulnerable:1": 0,
+            "PotionCount:3": 2,
+            "AICombat:3": 0,
+            "Dimension:3": 0,
+            "AIMode:3": 1,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 3464448360300,
+            "homeY:3": 0,
+            "Rotation:9": {
+              "0:5": 2.6825511,
+              "1:5": 0.0
+            },
+            "homeX:3": 0,
+            "HealF:5": 25.0,
+            "CustomName:8": "",
+            "isDwarf:1": 0,
+            "Despawn:1": 1,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "isBoss:1": 0,
+            "PersistenceRequired:1": 0,
+            "FallDistance:5": 0.0,
+            "id:8": "chocolateQuest.armoredZombie",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "addedToParty:1": 0,
+            "Health:2": 25,
+            "CanPickUpLoot:1": 0,
+            "DropChances:9": {
+              "0:5": 0.0,
+              "1:5": 0.0,
+              "2:5": 0.0,
+              "3:5": 0.0,
+              "4:5": 0.0
+            },
+            "HurtTime:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "homeDist:3": -1
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 29,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:egg",
+            "Damage:2": 502,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Hard Zombies",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": ""
+        }
+      }
+    },
+    "30:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.armoredSkeleton",
+          "index:3": 0,
+          "required:3": 20,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "team:8": "mob_undead",
+            "UUIDLeast:4": -7689115451358212089,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "dropLeft:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 20.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.3
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 20.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 1.0
+              }
+            },
+            "homeZ:3": 0,
+            "Invulnerable:1": 0,
+            "PotionCount:3": 0,
+            "AICombat:3": 0,
+            "Dimension:3": 0,
+            "AIMode:3": 1,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 3513794287900,
+            "homeY:3": 0,
+            "Rotation:9": {
+              "0:5": 0.3583053,
+              "1:5": 0.0
+            },
+            "homeX:3": 0,
+            "isWither:1": 0,
+            "HealF:5": 20.0,
+            "CustomName:8": "",
+            "Despawn:1": 1,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "isBoss:1": 0,
+            "PersistenceRequired:1": 0,
+            "FallDistance:5": 0.0,
+            "id:8": "chocolateQuest.armoredSkeleton",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "addedToParty:1": 0,
+            "Health:2": 20,
+            "CanPickUpLoot:1": 0,
+            "DropChances:9": {
+              "0:5": 0.0,
+              "1:5": 0.0,
+              "2:5": 0.0,
+              "3:5": 0.0,
+              "4:5": 0.0
+            },
+            "HurtTime:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "homeDist:3": -1
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 30,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:egg",
+            "Damage:2": 301,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Hard Skeletons",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "31:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.Lich",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {
+                "id:2": 4307,
+                "Damage:2": 0,
+                "Count:1": 1,
+                "tag:10": {
+                  "awk:10": {
+                    "13:2": 2
+                  },
+                  "Items:9": {
+                    "0:10": {
+                      "Slot:1": 0,
+                      "id:2": 4312,
+                      "Damage:2": 4,
+                      "Count:1": 1
+                    },
+                    "1:10": {
+                      "Slot:1": 1,
+                      "id:2": 4312,
+                      "Damage:2": 3,
+                      "Count:1": 1
+                    },
+                    "2:10": {
+                      "Slot:1": 2,
+                      "id:2": 4312,
+                      "Damage:2": 7,
+                      "Count:1": 1
+                    },
+                    "3:10": {
+                      "Slot:1": 3,
+                      "id:2": 4312,
+                      "Damage:2": 0,
+                      "Count:1": 1
+                    }
+                  },
+                  "damage:3": 6
+                }
+              },
+              "1:10": {
+                "id:2": 305,
+                "Damage:2": 0,
+                "Count:1": 1
+              },
+              "2:10": {
+                "id:2": 304,
+                "Damage:2": 0,
+                "Count:1": 1
+              },
+              "3:10": {
+                "id:2": 4305,
+                "Damage:2": 0,
+                "Count:1": 1,
+                "tag:10": {
+                  "display:10": {
+                    "color:3": 2236962
+                  }
+                }
+              },
+              "4:10": {
+                "id:2": 4266,
+                "Damage:2": 0,
+                "Count:1": 1
+              }
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "team:8": "mob_undead",
+            "UUIDLeast:4": 4803392725285049097,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "dropLeft:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 300.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.23
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 20.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 2.0
+              }
+            },
+            "homeZ:3": 0,
+            "Invulnerable:1": 0,
+            "PotionCount:3": 0,
+            "AICombat:3": 2,
+            "Dimension:3": 0,
+            "AIMode:3": 1,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 3594916721900,
+            "homeY:3": 0,
+            "Rotation:9": {
+              "0:5": 4.0747538,
+              "1:5": 0.0
+            },
+            "homeX:3": 0,
+            "HealF:5": 300.0,
+            "CustomName:8": "",
+            "isDwarf:1": 0,
+            "Despawn:1": 0,
+            "leftHand:10": {
+              "id:2": 4328,
+              "Damage:2": 0,
+              "Count:1": 1,
+              "tag:10": {
+                "level:3": 2,
+                "hound:1": 1
+              }
+            },
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "ForgeData:10": {
+              "items:9": {
+                "0:10": {
+                  "name:8": "chocolateQuest:badge",
+                  "id:2": 4337,
+                  "Damage:2": 0,
+                  "Count:1": 1,
+                  "tag:10": {
+                    "display:10": {
+                      "color:3": 4417792,
+                      "mob:8": "entity.chocolateQuest.Lich.name"
+                    }
+                  }
+                }
+              }
+            },
+            "isBoss:1": 1,
+            "PersistenceRequired:1": 0,
+            "FallDistance:5": 0.0,
+            "id:8": "chocolateQuest.Lich",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "addedToParty:1": 0,
+            "Health:2": 300,
+            "CanPickUpLoot:1": 0,
+            "DropChances:9": {
+              "0:5": 0.0,
+              "1:5": 0.0,
+              "2:5": 0.0,
+              "3:5": 0.0,
+              "4:5": 0.0
+            },
+            "HurtTime:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "homeDist:3": -1
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 31,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 64,
+            "id:8": "chocolateQuest:egg",
+            "Damage:2": 701,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Lich",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "32:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.bull",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": 622495347585768755,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 500.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.31
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 35.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 14.8
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 3803609482900,
+            "Rotation:9": {
+              "0:5": 4.9094634,
+              "1:5": 0.0
+            },
+            "HealF:5": 500.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "chocolateQuest.bull",
+            "PersistenceRequired:1": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 500,
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "size:5": 1.0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 32,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:material",
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "OR",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Horny Foes",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "33:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.minotaur",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "team:8": "mob_minotaur",
+            "UUIDLeast:4": 2634642112787433776,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "dropLeft:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 40.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.3
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 35.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 2.0
+              }
+            },
+            "homeZ:3": 0,
+            "Invulnerable:1": 0,
+            "PotionCount:3": 1,
+            "AICombat:3": 0,
+            "Dimension:3": 0,
+            "AIMode:3": 1,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 3884152927000,
+            "homeY:3": 0,
+            "Rotation:9": {
+              "0:5": 1.5947417,
+              "1:5": 0.0
+            },
+            "homeX:3": 0,
+            "HealF:5": 40.0,
+            "CustomName:8": "",
+            "Despawn:1": 1,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "isBoss:1": 0,
+            "PersistenceRequired:1": 0,
+            "FallDistance:5": 0.0,
+            "id:8": "chocolateQuest.minotaur",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "addedToParty:1": 0,
+            "Health:2": 40,
+            "CanPickUpLoot:1": 0,
+            "DropChances:9": {
+              "0:5": 0.0,
+              "1:5": 0.0,
+              "2:5": 0.0,
+              "3:5": 0.0,
+              "4:5": 0.0
+            },
+            "HurtTime:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "homeDist:3": -1
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 33,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:egg",
+            "Damage:2": 708,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Hornier Foes",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "34:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.slimeBoss",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": 181881815666233616,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 275.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.312
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 25.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 6.3
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 4132189868100,
+            "Rotation:9": {
+              "0:5": 4.4685683,
+              "1:5": 0.0
+            },
+            "HealF:5": 275.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "chocolateQuest.slimeBoss",
+            "PersistenceRequired:1": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 275,
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "size:5": 1.0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 34,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:egg",
+            "Damage:2": 803,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Slimy Trouble",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "35:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.spiderBoss",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8488540920072667844,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 450.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.23
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 46.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 10.8
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 4340999804899,
+            "Rotation:9": {
+              "0:5": 5.3914456,
+              "1:5": 0.0
+            },
+            "HealF:5": 450.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "chocolateQuest.spiderBoss",
+            "PersistenceRequired:1": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 450,
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "size:5": 1.0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 35,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:egg",
+            "Damage:2": 804,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Acanophobia",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "36:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.turtleBoss",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": 1991474002461748445,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 300.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.20500000000000002
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 35.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 7.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 4412059154700,
+            "Rotation:9": {
+              "0:5": 5.1646295,
+              "1:5": 0.0
+            },
+            "HealF:5": 300.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "chocolateQuest.turtleBoss",
+            "PersistenceRequired:1": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 300,
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "size:5": 1.0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 36,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:egg",
+            "Damage:2": 800,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "OR",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Hard Shell",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "37:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.pirateBoss",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {
+                "id:2": 4252,
+                "Damage:2": 0,
+                "Count:1": 1
+              },
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "team:8": "mob_pirate",
+            "UUIDLeast:4": 2047464377894778546,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "dropLeft:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 500.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.3
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 30.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 1.0
+              }
+            },
+            "homeZ:3": 0,
+            "Invulnerable:1": 0,
+            "PotionCount:3": 3,
+            "AICombat:3": 4,
+            "Dimension:3": 0,
+            "AIMode:3": 1,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 4471460732400,
+            "homeY:3": 0,
+            "Rotation:9": {
+              "0:5": 1.0415858,
+              "1:5": 0.0
+            },
+            "homeX:3": 0,
+            "HealF:5": 400.0,
+            "CustomName:8": "",
+            "Despawn:1": 0,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "ForgeData:10": {
+              "items:9": {
+                "0:10": {
+                  "name:8": "chocolateQuest:badge",
+                  "id:2": 4337,
+                  "Damage:2": 0,
+                  "Count:1": 1,
+                  "tag:10": {
+                    "display:10": {
+                      "color:3": 2236962,
+                      "mob:8": "entity.chocolateQuest.pirateBoss.name"
+                    }
+                  }
+                }
+              }
+            },
+            "isBoss:1": 1,
+            "PersistenceRequired:1": 0,
+            "FallDistance:5": 0.0,
+            "id:8": "chocolateQuest.pirateBoss",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "addedToParty:1": 0,
+            "Health:2": 400,
+            "CanPickUpLoot:1": 0,
+            "DropChances:9": {
+              "0:5": 0.0,
+              "1:5": 0.0,
+              "2:5": 0.0,
+              "3:5": 0.0,
+              "4:5": 0.0
+            },
+            "HurtTime:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "homeDist:3": -1
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 37,
+      "preRequisites:11": [
+        36
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:pirateDagger",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "ARRGS MATEY",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "38:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.abyssWalkerBoss",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {
+                "id:2": 4245,
+                "Damage:2": 0,
+                "Count:1": 1
+              },
+              "1:10": {
+                "id:2": 4300,
+                "Damage:2": 0,
+                "Count:1": 1,
+                "tag:10": {
+                  "display:10": {
+                    "color:3": 8339378
+                  }
+                }
+              },
+              "2:10": {
+                "id:2": 4299,
+                "Damage:2": 0,
+                "Count:1": 1,
+                "tag:10": {
+                  "display:10": {
+                    "color:3": 8339378
+                  }
+                }
+              },
+              "3:10": {
+                "id:2": 4268,
+                "Damage:2": 0,
+                "Count:1": 1,
+                "tag:10": {
+                  "apron:3": 10,
+                  "display:10": {
+                    "color:3": 8339378
+                  },
+                  "cape:3": 10
+                }
+              },
+              "4:10": {
+                "id:2": 4297,
+                "Damage:2": 0,
+                "Count:1": 1,
+                "tag:10": {
+                  "display:10": {
+                    "color:3": 8339378
+                  }
+                }
+              }
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "team:8": "mob_walker",
+            "UUIDLeast:4": -4115226411601015500,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "dropLeft:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 500.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.3
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 30.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 3.0
+              }
+            },
+            "homeZ:3": 0,
+            "Invulnerable:1": 0,
+            "PotionCount:3": 0,
+            "AICombat:3": 0,
+            "Dimension:3": 0,
+            "AIMode:3": 1,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 4561494444700,
+            "homeY:3": 0,
+            "Rotation:9": {
+              "0:5": 5.056325,
+              "1:5": 0.0
+            },
+            "homeX:3": 0,
+            "HealF:5": 500.0,
+            "CustomName:8": "",
+            "Despawn:1": 0,
+            "leftHand:10": {
+              "id:2": 4263,
+              "Damage:2": 10,
+              "Count:1": 1
+            },
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "ForgeData:10": {
+              "items:9": {
+                "0:10": {
+                  "name:8": "chocolateQuest:badge",
+                  "id:2": 4337,
+                  "Damage:2": 0,
+                  "Count:1": 1,
+                  "tag:10": {
+                    "display:10": {
+                      "color:3": 8339378,
+                      "mob:8": "entity.chocolateQuest.abyssWalkerBoss.name"
+                    }
+                  }
+                }
+              }
+            },
+            "isBoss:1": 1,
+            "PersistenceRequired:1": 0,
+            "FallDistance:5": 0.0,
+            "id:8": "chocolateQuest.abyssWalkerBoss",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "addedToParty:1": 0,
+            "Health:2": 500,
+            "CanPickUpLoot:1": 0,
+            "DropChances:9": {
+              "0:5": 0.0,
+              "1:5": 0.0,
+              "2:5": 0.0,
+              "3:5": 0.0,
+              "4:5": 0.0
+            },
+            "HurtTime:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "homeDist:3": -1
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 38,
+      "preRequisites:11": [
+        37
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:walkerSword",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "UH OH",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "Worlds and factions crumble at his sight...."
+        }
+      }
+    },
+    "39:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "chocolateQuest.monking",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": 8727143683530254121,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 760.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.2657142873108387
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 35.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 10.5
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 4708491108900,
+            "Rotation:9": {
+              "0:5": 1.4651432,
+              "1:5": 0.0
+            },
+            "HealF:5": 760.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "chocolateQuest.monking",
+            "PersistenceRequired:1": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 760,
+            "Fire:2": 0,
+            "PortalCooldown:3": 0,
+            "size:5": 1.0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 39,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:egg",
+            "Damage:2": 801,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Monkeying Around",
+          "repeatTime:3": -1,
+          "autoClaim:1": 0,
+          "taskLogic:8": "AND",
+          "simultaneous:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "40:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "chocolateQuest:healingPotion",
+              "OreDict:8": "",
+              "Count:3": 32
+            }
+          },
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 40,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "chocolateQuest:healingPotion",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Heals, Heals",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "You\u0027ll need this....."
+        }
+      }
+    },
+    "41:10": {
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "dextersnether:scythe",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "ignoreNBT:1": 0
+        },
+        "1:10": {
+          "target:8": "dextersnether_Phantom",
+          "index:3": 1,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": 4655895679547702422,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 30.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.5
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 6.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 6735618992600,
+            "Rotation:9": {
+              "0:5": 1.5398641,
+              "1:5": 0.0
+            },
+            "HealF:5": 30.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether_Phantom",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 30,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 41,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "dextersnether:scythe",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Grim Reaper",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "42:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "dextersnether_InfernumAvis",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8696148220674403978,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 200.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.4
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 50.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 5.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 6893975069200,
+            "Rotation:9": {
+              "0:5": 6.112726,
+              "1:5": 0.0
+            },
+            "HealF:5": 200.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether_InfernumAvis",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 200,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "1:10": {
+          "target:8": "dextersnether_InfernalBlaze",
+          "index:3": 1,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -2388898504929198749,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 30.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.10000000149011612
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 50.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 8.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 6908333864600,
+            "Rotation:9": {
+              "0:5": 5.743586,
+              "1:5": 0.0
+            },
+            "HealF:5": 30.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether_InfernalBlaze",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 30,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "2:10": {
+          "target:8": "dextersnether_Glowstone_Skeleton",
+          "index:3": 2,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": 335740355301626028,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 20.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.25
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 2.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 6925429182900,
+            "Rotation:9": {
+              "0:5": 1.1768017,
+              "1:5": 0.0
+            },
+            "HealF:5": 20.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "Fire:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether_Glowstone_Skeleton",
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Health:2": 20,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "SkeletonType:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "3:10": {
+          "target:8": "dextersnether_Nether_Spider",
+          "index:3": 3,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -2778483310268521757,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 20.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.800000011920929
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 2.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 6950226656900,
+            "Rotation:9": {
+              "0:5": 3.2636366,
+              "1:5": 0.0
+            },
+            "HealF:5": 20.0,
+            "CustomName:8": "",
+            "Size:3": 1,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether_Nether_Spider",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 20,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "4:10": {
+          "target:8": "dextersnether_Obsidian_Sheepman",
+          "index:3": 4,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6709378179413724702,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "ConversionTime:3": -1,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 20.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.5
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 40.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 1.0
+              },
+              "9:10": {
+                "Name:8": "zombie.spawnReinforcements",
+                "Base:6": 0.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 6969372853800,
+            "Rotation:9": {
+              "0:5": 2.2655604,
+              "1:5": 0.0
+            },
+            "CanBreakDoors:1": 0,
+            "HealF:5": 20.0,
+            "CustomName:8": "",
+            "Anger:2": 0,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether_Obsidian_Sheepman",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 20,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "5:10": {
+          "target:8": "dextersnether_Curse",
+          "index:3": 5,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6528201347614130565,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 16.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.3
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 3.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 6999818966000,
+            "Rotation:9": {
+              "0:5": 0.6493196,
+              "1:5": 0.0
+            },
+            "HealF:5": 16.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether_Curse",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 16,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 42,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:glowstone",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Demonic Slayer",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
+    },
+    "43:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "dextersnether_",
+          "index:3": 0,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "InCloak:1": 0,
+            "UUIDLeast:4": -5768248764576158001,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 200.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.46
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 80.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 5.0
+              }
+            },
+            "SpecialCooldown:3": 0,
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 7126431104300,
+            "Rotation:9": {
+              "0:5": 5.814007,
+              "1:5": 0.0
+            },
+            "HealF:5": 200.0,
+            "CustomName:8": "",
+            "Cooldown:3": 0,
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether_",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 200,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "attackUpdateTimer:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        },
+        "1:10": {
+          "target:8": "dextersnether__",
+          "index:3": 1,
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": 7026172285709833050,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "weapon.penetrateArmor",
+                "Base:6": 0.0
+              },
+              "1:10": {
+                "Name:8": "weapon.daze",
+                "Base:6": 3.0
+              },
+              "2:10": {
+                "Name:8": "weapon.attackSpeed",
+                "Base:6": 0.0
+              },
+              "3:10": {
+                "Name:8": "weapon.mountedBonus",
+                "Base:6": 0.0
+              },
+              "4:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 1.0
+              },
+              "5:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.0
+              },
+              "6:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.43
+              },
+              "7:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "8:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 3.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "Dimension:3": 0,
+            "CustomNameVisible:1": 0,
+            "UUIDMost:4": 7162268813800,
+            "Rotation:9": {
+              "0:5": 2.1430993,
+              "1:5": 0.0
+            },
+            "HealF:5": 1.0,
+            "CustomName:8": "",
+            "Air:2": 300,
+            "AttackTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "dextersnether__",
+            "Fire:2": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "Health:2": 1,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 43,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:mob_spawner",
+            "Damage:2": 35,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 1,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "A childhood Scare.",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "§4§o§l§n§kWe all feared him.... We all thought he was real...."
+        }
+      }
+    },
+    "44:10": {
+      "tasks:9": {},
+      "questID:3": 44,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:nether_star",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "repeatTime:3": -1,
+          "isSilent:1": 0,
+          "questLogic:8": "AND",
+          "isMain:1": 0,
+          "lockedProgress:1": 0,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "New Quest",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
+          "globalShare:1": 0,
+          "desc:8": "No Description"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -2245,6 +6221,20 @@
           "x:3": -264,
           "sizeX:3": 24,
           "sizeY:3": 24
+        },
+        "16:10": {
+          "id:3": 22,
+          "y:3": -72,
+          "x:3": -180,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "id:3": 28,
+          "y:3": -72,
+          "x:3": -48,
+          "sizeX:3": 24,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 0
@@ -2297,6 +6287,104 @@
           "x:3": -108,
           "sizeX:3": 24,
           "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 26,
+          "y:3": -60,
+          "x:3": -192,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 27,
+          "y:3": -60,
+          "x:3": -228,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 29,
+          "y:3": -84,
+          "x:3": -60,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "id:3": 30,
+          "y:3": -84,
+          "x:3": -12,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "id:3": 31,
+          "y:3": -36,
+          "x:3": -12,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "id:3": 32,
+          "y:3": -60,
+          "x:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "id:3": 33,
+          "y:3": -36,
+          "x:3": -60,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "id:3": 34,
+          "y:3": -12,
+          "x:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "id:3": 35,
+          "y:3": 12,
+          "x:3": -60,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "id:3": 36,
+          "y:3": 36,
+          "x:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "id:3": 37,
+          "y:3": 60,
+          "x:3": -60,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "id:3": 38,
+          "y:3": 84,
+          "x:3": -96,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "id:3": 39,
+          "y:3": 12,
+          "x:3": -12,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "id:3": 40,
+          "y:3": -60,
+          "x:3": -264,
+          "sizeX:3": 24,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1
@@ -2332,25 +6420,95 @@
           "x:3": -108,
           "sizeX:3": 24,
           "sizeY:3": 24
+        },
+        "2:10": {
+          "id:3": 23,
+          "y:3": -12,
+          "x:3": -108,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "id:3": 24,
+          "y:3": -60,
+          "x:3": -60,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "id:3": 25,
+          "y:3": -60,
+          "x:3": -24,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "id:3": 41,
+          "y:3": -60,
+          "x:3": -138,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "id:3": 42,
+          "y:3": -64,
+          "x:3": 16,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "id:3": 43,
+          "y:3": -30,
+          "x:3": -60,
+          "sizeX:3": 24,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2
+    },
+    "3:10": {
+      "order:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Rageing Warrior",
+          "desc:8": "§4§o§l§nThe foes here control entire nations and are feared by mere mention of their names",
+          "visibility:8": "NORMAL",
+          "bg_size:3": 256,
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:book",
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": ""
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 44,
+          "y:3": -54,
+          "x:3": -108,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 3
     }
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "home_anchor_x:5": 0.5,
       "livesMax:3": 10,
+      "home_anchor_x:5": 0.5,
       "home_offset_x:3": -128,
-      "home_image:8": "evilerminecraft:textures/gui/logo5.png",
+      "home_image:8": "evilminecraft:/textures/gui/logo5.png",
       "livesDef:3": 3,
-      "party_enable:1": 1,
-      "hardcore:1": 0,
-      "editMode:1": 1,
-      "pack_version:3": 0,
       "pack_name:8": "",
-      "home_offset_y:3": 0,
-      "home_anchor_y:5": 0.0
+      "pack_version:3": 0,
+      "editMode:1": 1,
+      "hardcore:1": 0,
+      "party_enable:1": 0,
+      "home_anchor_y:5": 0.0,
+      "home_offset_y:3": 30
     }
   },
   "format:8": "2.0.0"
