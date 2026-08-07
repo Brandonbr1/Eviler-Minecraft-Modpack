@@ -7,12 +7,12 @@ renderDistance:16
 guiScale:0
 particles:0
 bobView:true
-anaglyph3d:false
+anaglyph3d:0.0
 advancedOpengl:false
 maxFps:260
 fboEnable:true
 difficulty:3
-fancyGraphics:false
+fancyGraphics:true
 ao:1
 clouds:false
 resourcePacks:[]
@@ -95,6 +95,9 @@ key_key_ironbackpacks_openbackpack:19
 key_key_ironbackpacks_equipbackpack:48
 key_PM_ParticleMode:37
 key_PM_ShieldToggle:38
+key_zume.zoom:44
+key_zume.zoom_in:13
+key_zume.zoom_out:12
 key_key.dss.activate.desc:45
 key_key.dss.next.desc:15
 key_key.dss.skills_gui.desc:25
