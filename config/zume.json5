@@ -2,7 +2,7 @@
 	// Enable Cinematic Camera while zooming.
 	// If you disable this, you should also try setting `zoomSmoothnessMs` to `0`.
 	// DEFAULT: `true`
-	"enableCinematicZoom": true,
+	"enableCinematicZoom": false,
 	// Mouse Sensitivity will not be reduced below this amount while zoomed in.
 	// Set to `1.0` to prevent it from being changed at all (not recommended without `enableCinematicZoom`).
 	// DEFAULT: `0.4`
@@ -17,7 +17,7 @@
 	// FOV changes will be spread out over this many milliseconds.
 	// Set to `0` to disable animations.
 	// DEFAULT: `150`
-	"zoomSmoothnessMs": 150,
+	"zoomSmoothnessMs": 0,
 	// The exponent used for easing animations.
 	// You should probably leave this at the default if you don't understand what it does.
 	// DEFAULT: `4.0`
@@ -39,7 +39,7 @@
 	"thirdPersonToggleMode": true,
 	// Minimum zoom FOV.
 	// DEFAULT: `1.0`
-	"minFOV": 1.0,
+	"minFOV": 2.0,
 	// Maximum third-person zoom distance (in blocks).
 	// Set to `0.0` to disable third-person zoom.
 	// DEFAULT: `15.0`

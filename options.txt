@@ -91,6 +91,7 @@ key_key.betterquesting.quests:27
 key_key.party:33
 key_key.next:45
 key_key.prev:46
+key_key.openCompendium:25
 key_key_ironbackpacks_openbackpack:19
 key_key_ironbackpacks_equipbackpack:48
 key_PM_ParticleMode:37
