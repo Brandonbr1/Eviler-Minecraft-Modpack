@@ -1,0 +1,12 @@
+NFOGA=125.0
+NFOGI=6.0
+MOTION_BLUR=true
+FGrain=true
+TONEMAP=6
+TonemapExposure=1.0
+TonemapWhiteCurve=4.0
+TonemapLowerCurve=1.3
+TonemapUpperCurve=1.3
+BSLSaturation=0.5
+BSLVibrance=0.5
+NETHER_REFRACTION_AMOUNT=0.55
