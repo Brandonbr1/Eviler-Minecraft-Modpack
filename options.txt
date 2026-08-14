@@ -99,6 +99,7 @@ key_PM_ShieldToggle:38
 key_zume.zoom:44
 key_zume.zoom_in:13
 key_zume.zoom_out:12
+key_key.anextratouch.free_look:56
 key_key.dss.activate.desc:45
 key_key.dss.next.desc:15
 key_key.dss.skills_gui.desc:25
