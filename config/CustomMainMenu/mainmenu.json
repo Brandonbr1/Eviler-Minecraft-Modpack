@@ -5,7 +5,7 @@
         {
             "image" : "modpack_assets:textures/gui/title/logo.png",
             "posX" : 170,
-            "posY" : -22,
+            "posY" : -52,
             "width" : 512,
             "height" : 512,
             "alignment" : "left_center"
