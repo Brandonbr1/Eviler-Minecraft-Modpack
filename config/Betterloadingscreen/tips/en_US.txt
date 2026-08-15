@@ -11,3 +11,4 @@ Deserts drain your thirst faster than normal!
 Tamed Creeper Minions no longer gets attacked by iron golems and no longer despawns on peaceful!
 Mobs from Chocolate Quest(Better dungeons) are unable to become infernal!
 Spiders and Pigmen are always aggressive if with any modifier(rare)!
+Use Iron chests, backpacks, and furnaces for needed improvements!
