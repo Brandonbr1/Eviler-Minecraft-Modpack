@@ -103,6 +103,15 @@ key_key.anextratouch.free_look:56
 key_key.dss.activate.desc:45
 key_key.dss.next.desc:15
 key_key.dss.skills_gui.desc:24
+key_Glider Toggle:34
+key_Sound Locator:38
+key_Night Vision:25
+key_Goggles of Revealing:19
+key_Step Assist:0
+key_Speed:0
+key_Jump:0
+key_Yeta Wrench Mode:21
+key_Toggle Electromagnet:0
 key_key.portaitreposition:52
 soundCategory_master:1.0
 soundCategory_music:1.0
