@@ -112,6 +112,7 @@ key_Speed:0
 key_Jump:0
 key_Yeta Wrench Mode:21
 key_Toggle Electromagnet:0
+key_key.portaitreposition:52
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
