@@ -41,6 +41,7 @@ recipes.addShapeless(<ExtraUtilities:angelRing:1>, [<minecraft:feather>, <ExtraU
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [[<HardcoreEnderExpansion:obsidian_special:1>, <HardcoreEnderExpansion:obsidian_special:1>, <minecraft:blaze_powder>], [<HardcoreEnderExpansion:obsidian_special:1>, <ExtraUtilities:builderswand>, <HardcoreEnderExpansion:obsidian_special:1>], [<minecraft:blaze_rod>, <HardcoreEnderExpansion:obsidian_special:1>, <HardcoreEnderExpansion:obsidian_special:1>]]);
 recipes.addShaped(<fakeores:fd_rainbow_block>, [[<dextersnether:item>, <dextersnether:item>, <dextersnether:item>], [<dextersnether:item>, <fakeores:fd_rainbow_ingot>, <dextersnether:item>], [<dextersnether:item>, <dextersnether:item>, <dextersnether:item>]]);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:8>, [[<minecraft:golden_apple>, <minecraft:enchanted_book>, <minecraft:golden_apple>], [<minecraft:enchanted_book>, <minecraft:bookshelf>, <minecraft:enchanted_book>], [<minecraft:golden_apple>, <minecraft:enchanted_book>, <minecraft:golden_apple>]]);
 recipes.addShaped(<HostileWorlds:curseAura>, [[<dextersnether:item>, <fakeores:fd_rainbow_ingot>, <dextersnether:item>], [<fakeores:fd_rainbow_ingot>, <minecraft:mossy_cobblestone>, <fakeores:fd_rainbow_ingot>], [<dextersnether:item>, <fakeores:fd_rainbow_ingot>, <dextersnether:item>]]);

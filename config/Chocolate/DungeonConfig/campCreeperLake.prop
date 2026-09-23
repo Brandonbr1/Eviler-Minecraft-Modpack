@@ -1,5 +1,5 @@
 #biomes = PLAINS, FOREST, SWAMP
-biomes = PLAINS, FOREST, SWAMP
+biomes = FOREST
 
 #chance: define the ratio at wich the dungeon spawns, if set to 0 the dungeon will be disabled.
 #The formula goes like that: every 5 chunks there is 1 between the number set to chance probabilities to spawn a dungeon.
@@ -10,7 +10,7 @@ chance = 20
 mob = minotaur
 
 #icon: used as the item icon intex in the dungeon spawner item. (look at textures/items/bd/ d1, d2..., only the number is required)
-icon = 12
+icon = 9744
 
 #Builder allows you to choose what builder does the dungeon use
 #templateSurface Will try to find the highest position to spawn A schematic
