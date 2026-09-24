@@ -10,7 +10,7 @@ chance = 20
 mob = minotaur
 
 #icon: used as the item icon intex in the dungeon spawner item. (look at textures/items/bd/ d1, d2..., only the number is required)
-icon = 9744
+icon = 20
 
 #Builder allows you to choose what builder does the dungeon use
 #templateSurface Will try to find the highest position to spawn A schematic
