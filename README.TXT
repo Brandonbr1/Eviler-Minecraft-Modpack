@@ -20,7 +20,7 @@ Dragon Hit sound is a modified version of: Dogs growling.wav by juskiddink -- ht
 Monkey Hit Sound is from: Monkey noise (imitation) 3 by wilika2 -- https://freesound.org/s/588625/ -- License: Creative Commons 0
 
 
-The following music tracks are played on the title screen of the mudpack are made by the following very talented individuals:
+The following music tracks are played on the title screen of the modpack are made by the following very talented individuals:
 
 menu1.ogg is End City Remains – Epic Theme (Fan Made Music Disc)by Stereonyx - https://www.youtube.com/watch?v=x5igT_ERF4o
 
