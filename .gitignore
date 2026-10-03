@@ -12,3 +12,5 @@ shaderpacks/teashader
 shaderpacks/debug
 imgui.ini
 minetweaker.log
+usercache.json
+usernamecache.json
