@@ -11,7 +11,7 @@ anaglyph3d:0.0
 advancedOpengl:false
 maxFps:250
 fboEnable:true
-difficulty:2
+difficulty:3
 fancyGraphics:true
 ao:2
 clouds:false
@@ -153,7 +153,7 @@ key_key.speed.decrease:0
 key_key.fastBlockPlacing.desc:0
 key_key.portaitreposition:52
 key_nei.options.keys.gui.xu_ping:0
-soundCategory_master:0.0
+soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
