@@ -1,1 +1,0 @@
-recipes.addShapeless(<ExtraUtilities:unstableingot>, [<ore:blockUnstable>]);

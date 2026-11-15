@@ -18,6 +18,7 @@
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<CakeIsALie:icake3>, [[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>], [<minecraft:golden_apple>, <minecraft:golden_apple>, <minecraft:golden_apple>], [<ore:cropWheat>, <ore:cropWheat>, <ore:cropWheat>]]);
 // ================================================================================
 //#MARKER ADD
 
