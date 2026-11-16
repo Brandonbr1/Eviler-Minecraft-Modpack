@@ -42,6 +42,8 @@ CakeIsALie Mod is made by Toinane is used and can be found at: https://www.curse
 
 Animals Plus is made by Click_Me and can be found at: https://www.planetminecraft.com/mod/animals---birds-fish-whales-mice-and-more/
 
+https://web.archive.org/web/20150304221741/http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1242446-faithful-64x64-14-06-14-update-more-than-870-000 for the sponge texture used in the menu backgrounds.
+
 
 Fake ores is made by eliferd. The 1.7.10 download no longer exists so I can't even give you it.... https://github.com/eliferd/FakeOres you have to compile from the gitHub source code yourself.... (and I guess I messed up the version system so that is why is version is messed in this modpack.)
 
